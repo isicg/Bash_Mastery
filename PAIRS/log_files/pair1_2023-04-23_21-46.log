@@ -1,0 +1,9 @@
+Game started at: 2023-04-23_21-46
+another line in the logfile
+     1    2
+1:  [-A]  [-D] 
+2:  [-D]  [-B] 
+3:  [-C]  [-A] 
+4:  [-C]  [-B] 
+1. move: (1,1)=-A, (1,2)=-D [slot1=1,1, slot2=1,2]
+Game ended at 2023-04-23_21-46

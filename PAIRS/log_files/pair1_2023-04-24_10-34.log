@@ -1,0 +1,15 @@
+logfile: pair1_2023-04-24_10-34.log
+Game started at: 2023-04-24_10-34
+
+Logfolder named 'log_files' found
+Moved ./pair1_2023-04-24_10-30.log to log_files/
+The uncovered table:
+
+     1    2    3
+1:  [E]  [C]  [B] 
+2:  [F]  [F]  [B] 
+3:  [A]  [A]  [E] 
+4:  [D]  [C]  [D] 
+
+
+Game ended at 2023-04-24_10-34

@@ -1,0 +1,11 @@
+Moved ./pair1_2023-04-24_10-26.log to log_files/
+The uncovered table:
+
+     1    2    3
+1:  [E]  [F]  [B] 
+2:  [F]  [E]  [C] 
+3:  [D]  [C]  [D] 
+4:  [A]  [B]  [A] 
+
+
+Game ended at 2023-04-24_10-30

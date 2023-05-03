@@ -1,0 +1,16 @@
+Game started at: 2023-04-24_10-02
+
+another line in the logfile
+     1    2
+1:  [C]  [B] 
+2:  [D]  [B] 
+3:  [A]  [A] 
+4:  [D]  [C] 
+1. move: (1,1)=-C, (1,2)=-B [slot1=1,1, slot2=1,2]
+2. move: (2,1)=-D, (2,2)=-B [slot1=2,1, slot2=2,2]
+3. move: (1,2)=-B, (2,2)=-B [slot1=1,2, slot2=2,2]
+4. move: (3,1)=-A, (3,2)=-A [slot1=3,1, slot2=3,2]
+5. move: (1,1)=-C, (4,1)=-D [slot1=1,1, slot2=4,1]
+6. move: (2,1)=-D, (4,1)=-D [slot1=2,1, slot2=4,1]
+7. move: (1,1)=-C, (4,2)=-C [slot1=1,1, slot2=4,2]
+Game ended at 2023-04-24_10-04

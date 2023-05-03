@@ -1,0 +1,3 @@
+# This folder contains the files related to the PAIRS game created following the Linux Journal article by Dave Taylor
+# https://www.linuxjournal.com/content/creating-concentration-game-pairs-bash
+# https://www.linuxjournal.com/content/creating-concentration-game-pairs-bash-part-ii

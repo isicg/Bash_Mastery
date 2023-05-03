@@ -1,0 +1,20 @@
+logfile: pair1_2023-04-24_10-56.log
+Game started at: 2023-04-24_10-56
+
+Logfolder named 'log_files' found
+Moved ./pair1_2023-04-24_10-49.log to log_files/
+Welcome to PAIRS. Your mission is to identify matching letters in the grid.
+Good luck. If you give up at any point, just use q to quit.
+
+The uncovered table:
+
+     1    2    3    4
+1:  [E]  [H]  [E]  [B] 
+2:  [A]  [F]  [C]  [C] 
+3:  [A]  [D]  [B]  [H] 
+4:  [D]  [F]  [G]  [G] 
+
+1. move: (1,1)=-E, (1,2)=-H [slot1=1,1, slot2=1,2]
+bye.
+
+Game ended at 2023-04-24_10-57
