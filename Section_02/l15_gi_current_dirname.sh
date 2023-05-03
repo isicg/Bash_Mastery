@@ -12,6 +12,8 @@
 
 spath=$(pwd)
 
+echo "Hi!"
+
 echo -e "\npwd gives: $spath"
 echo "dirname \$0 gives: $(dirname $0)"
 
