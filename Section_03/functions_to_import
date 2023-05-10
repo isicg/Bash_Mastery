@@ -1,0 +1,84 @@
+#!/bin/bash
+# 
+# Author: gi
+# Created: 2023-04-15
+# Last Modified: YYYY-mm-dd
+# 
+# Description:
+# Define some functions which will be imported into another bash script
+# 
+# Usage:
+# . /home/gi/quill/Bash_Mastery/Section_02/functions_to_import
+
+string_an() {
+	# analyze the content of a string - write out its number of characters and then list them one-by-one
+	if [ $# -lt 1 ] ; then
+		echo "error using string_an(): expected 1 argument"
+		exit 1
+	fi
+	local s=$1
+	local a='_'
+	echo "<$s> has ${#s} characters:"
+	local cnt=0
+	while [ $cnt -lt ${#s} ] ; do
+		# cnt=$(( cnt + 1 ))
+		echo "$cnt: $a${s:$((cnt++)):1}$a"
+	done
+}
+
+
+make_array_of_squares () {
+	# this function assumes that the supplied argument is an array and sets its first n elements (indices 0 through n-1) to values equal to index squared; n is supplied as the second argument
+	declare -n a=$1 # this is the array supplied as argument
+	n=$2; cnt=0
+	while [ $cnt -lt $n ] ; do
+		a[$cnt]=$(( $cnt * $cnt )) ; cnt=$(( $cnt + 1 ))
+	done
+	return 0
+}
+
+print_array_elements () {
+	# this function prints the elements of the array supplied as the argument
+	declare -n a=$1
+	n=${#a[@]} ; cnt=0
+	echo "This array has $n elements:"
+	while [ $cnt -lt $n ] ; do 
+		echo "a[$cnt]=${a[$cnt]}" ; cnt=$(( $cnt + 1 ))
+	done ; return 0
+}
+
+char_in_var () {
+	# return 0 if the character ($1) is contained in the variable ($2)
+	case $2 in
+		*"$1"*)
+			return 0
+			;;
+		*)
+			return 1
+			;;
+	esac
+}
+
+
+var_chars () {
+	# return 0 if any of the listed characters ($2, $3, etc.) are contained in a given variable ($1)
+	local nc=$(( $#-1 )) # number of characters supplied in function call
+	# echo "The number of characters is: $nc"
+	local word=$1
+	local cnt=0
+	while [ $cnt -lt $nc ] ; do
+		shift
+		case $word in 
+			*"$1"*)
+				# echo "$1 is contained in $word"
+				return 0
+				;;
+			*)
+				# echo "$1 is NOT contained in $word"
+				;;
+		esac
+		# echo "Parameter $cnt: $1"
+		cnt=$(( $cnt + 1 ))
+	done
+	return 1
+}
