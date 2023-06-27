@@ -1,0 +1,26 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://mail.google.com/mail/u/0/
+Cross-Origin-Resource-Policy: cross-origin
+X-Content-Type-Options: nosniff
+Server: sffe
+Content-Length: 230
+X-XSS-Protection: 0
+Date: Tue, 27 Jun 2023 15:42:13 GMT
+Expires: Tue, 27 Jun 2023 16:12:13 GMT
+Cache-Control: public, max-age=1800
+Content-Type: text/html; charset=UTF-8
+Age: 1359
+
+HTTP/1.1 301 Moved Permanently
+Location: https://mail.google.com/mail/u/0/
+Cross-Origin-Resource-Policy: cross-origin
+X-Content-Type-Options: nosniff
+Server: sffe
+Content-Length: 230
+X-XSS-Protection: 0
+Date: Tue, 27 Jun 2023 15:55:22 GMT
+Expires: Tue, 27 Jun 2023 16:25:22 GMT
+Cache-Control: public, max-age=1800
+Content-Type: text/html; charset=UTF-8
+Age: 838
+

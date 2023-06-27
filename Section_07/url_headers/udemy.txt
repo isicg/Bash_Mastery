@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 27 Jun 2023 16:04:52 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Tue, 27 Jun 2023 17:04:52 GMT
+Location: https://www.udemy.com/
+Set-Cookie: __cf_bm=.q0vd_cqemD5zzugk044vkHooyAZ.QPbqbaZ4v_Q9zg-1687881892-0-ASLRWyj6bnmu/g9Egr1LUETiJHAz1ekF7X2VbuaIanPM6qcdcHMfG6nKP9T5sYPTjMbnUCG+HW73sa62Bo8JLqY=; path=/; expires=Tue, 27-Jun-23 16:34:52 GMT; domain=.udemy.com; HttpOnly; SameSite=None
+X-Content-Type-Options: nosniff
+Set-Cookie: __cfruid=cbc1265abaa3114495dc3ad21149bb4035fbd728-1687881892; path=/; domain=.udemy.com; HttpOnly
+Server: cloudflare
+CF-RAY: 7ddeeda5eb4d1cd0-BUD
+
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 27 Jun 2023 16:09:19 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Tue, 27 Jun 2023 17:09:19 GMT
+Location: https://www.udemy.com/
+Set-Cookie: __cf_bm=p_ATkeiWghJXS2engmm4wojg0nsK.OGAviXjlxNirGc-1687882159-0-Aekfk1itOGeWpvFRWN1Sd31Lc7Od64yPtJxkHMCo5HW96EziHzDpu/NpTupnKGIMkOBq6OgIX+1FKdKx6D+ZHek=; path=/; expires=Tue, 27-Jun-23 16:39:19 GMT; domain=.udemy.com; HttpOnly; SameSite=None
+X-Content-Type-Options: nosniff
+Set-Cookie: __cfruid=1c8e16eee4b34308c08412a83982d8033719de6e-1687882159; path=/; domain=.udemy.com; HttpOnly
+Server: cloudflare
+CF-RAY: 7ddef42b9f49684c-BUD
+

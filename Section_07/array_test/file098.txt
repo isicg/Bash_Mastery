@@ -1,0 +1,2 @@
+/home/gi/quill/Bash_Mastery/Section_07/array_test/file098.txt
+

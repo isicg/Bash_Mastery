@@ -1,0 +1,24 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 27 Jun 2023 16:04:54 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://www.amazon.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 9d638ed0e686bb5bd14bf9c73c1b0134.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BUD50-C1
+X-Amz-Cf-Id: _uTuHMrs0PPAU-NqiLC9RhHviNF7AFTqF2IvywGndrXkp3sgkiF_RA==
+
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 27 Jun 2023 16:09:21 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://www.amazon.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 cf368cd8d586df59fd18b66dd338e9fc.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BUD50-C1
+X-Amz-Cf-Id: rBkZP1X-C-gt2tcyHSymqEoRHfzVAbEKPxZit2Lf4TjL74I48vwZAA==
+
