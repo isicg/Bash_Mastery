@@ -1,0 +1,12 @@
+Hi, this is a demo of at running a bash script
+The current shell is: /home/gi/quill/Bash_Mastery/Section_10/demo_at.sh
+i=1
+i=2
+i=3
+i=4
+i=5
+i=6
+i=7
+i=8
+i=9
+i=10
